@@ -1,0 +1,133 @@
+.gif {
+  width: 50%;
+  height: 400px;
+}
+.home-page {
+  display: flex;
+  align-items: center;
+}
+.home-button {
+  padding: 20px;
+  margin: 10px;
+}
+.provider {
+  padding: 30px;
+}
+.home-text {
+  padding: 50px;
+  font-weight: bolder;
+}
+
+.font {
+  font-weight: 300;
+  color: teal;
+}
+.service-gif {
+  width: 400px;
+  height: 400px;
+}
+.service-gifs {
+  width: 250px;
+  height: 200px;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.skill {
+  margin-left: 130px;
+}
+.thumbnail {
+  border-radius: 20px;
+  justify-content: space-between;
+  margin: 10px;
+}
+.service-gifss {
+  width: 250px;
+  height: 200px;
+  padding-top: 10px;
+}
+.thum {
+  display: flex;
+}
+.app {
+  display: flex;
+}
+.call {
+  width: 800px;
+  height: 600px;
+  padding: 20px;
+}
+.app-text {
+  padding-top: 100px;
+  padding-right: 70px;
+  font-weight: bolder;
+  font-size: 3.5em;
+}
+.app-texts {
+  font-weight: 300;
+  color: teal;
+}
+.footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .thum {
+    display: block;
+  }
+  .gif {
+    width: 100%;
+    height: 400px;
+  }
+  .home-page {
+    display: inline-block;
+    align-items: center;
+  }
+  .thumbnail {
+    margin: 0px 40px 20px 40px;
+  }
+  .home-text {
+    padding: 20px;
+    font-weight: bolder;
+  }
+  .service-gif {
+    width: 200px;
+    height: 200px;
+  }
+  .service-gifss {
+    width: 150px;
+    height: 200px;
+    padding-top: 10px;
+  }
+  .service-gifs {
+    width: 150px;
+    height: 200px;
+  }
+  .skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+  }
+  .app {
+    display: inline-block;
+  }
+  .call {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+  }
+  .app-text {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 3.5em;
+  }
+  .app-texts {
+    font-weight: 300;
+    color: teal;
+  }
+}
