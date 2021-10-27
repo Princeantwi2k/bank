@@ -32,26 +32,11 @@ const Contact = () => {
         </h2>
         <h2 class="icons">
           {" "}
-          <i class="bx bxl-instagram phone">
-            <Link to="https://www.instagram.com/" className="contact-email">
-              {" "}
-              Qwajo monies{" "}
-            </Link>
-          </i>
+          <i class="bx bxl-instagram phone">Qwajo monies </i>
           <br />
-          <i class="bx bxl-twitter phone">
-            <Link to="https://twitter.com/home" className="contact-email">
-              {" "}
-              Prince2k{" "}
-            </Link>{" "}
-          </i>
+          <i class="bx bxl-twitter phone">Prince2k </i>
           <br />
-          <i class="bx bxl-facebook-circle phone">
-            <Link to="https://web.facebook.com/" className="contact-email">
-              {" "}
-              Qwajo monies{" "}
-            </Link>
-          </i>
+          <i class="bx bxl-facebook-circle phone">Qwajo monies </i>
         </h2>
       </div>
 
