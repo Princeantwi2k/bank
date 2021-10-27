@@ -210,10 +210,11 @@ const Project = () => {
         <div class="thumbnail">
           <img src={app8} alt="app" className="app1" />
           <div class="caption">
-            <h3 className="filler">Filler Hub</h3>
+            <h3 className="filler">Kawolegal</h3>
             <p>
-              Filler hub is a place you can get access to all the latest news is
-              the world being it politices,sport,business,science and magazine
+              Kawolegal is a website for a collaborative ecosytem for problem
+              solvers and support for startup companies or already existing
+              companies
             </p>
             <p>
               <a href="#" class="btn btn-success buttons" role="button">
