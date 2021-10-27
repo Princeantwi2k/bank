@@ -1,44 +1,47 @@
+.connect {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  margin-left: 100px;
+}
 .contact {
-  width: 100%;
-  text-align: center;
-
-  font-weight: bolder;
-  font-size: 40px;
-  color: rgb(7, 5, 5);
-  height: 100px;
-
-  margin: 0%;
-}
-
-.mind {
-  margin-top: 20px;
-  padding: 20px;
-  font-family: "Goblin One", cursive;
-  font-weight: bold;
-  font-size: 30px;
   text-align: center;
 }
-.dede {
-  text-align: center;
-  font-weight: bold;
+.phone {
+  margin-left: 90px;
 }
-.blade {
-  margin-top: 20px;
-  padding: 20px;
-  background-color: aqua;
-
-  color: black;
+.icons {
+  background-color: grey;
+  padding: 60px;
+  color: white;
 }
 .contact-email {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+  color: white;
+  text-decoration: none !important;
 }
-.blad {
-  padding: 10px;
-  font-weight: bold;
-  font-size: 30px;
-}
-.footer {
+.head {
+  margin-top: 100px;
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .icons {
+    background-color: rgb(211, 62, 62);
+    padding: 20px;
+    color: white;
+  }
+  .head {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .connect {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .phone {
+    margin-left: 50px;
+  }
 }
