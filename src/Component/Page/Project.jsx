@@ -7,7 +7,7 @@ import app4 from "../../Image/app4.png";
 import app5 from "../../Image/app5.png";
 import app6 from "../../Image/app6.png";
 import app7 from "../../Image/app7.png";
-
+import app8 from "../../Image/app8.png";
 const Project = () => {
   return (
     <>
@@ -208,7 +208,7 @@ const Project = () => {
           </div>
         </div>
         <div class="thumbnail">
-          <img src={app5} alt="app" className="app1" />
+          <img src={app8} alt="app" className="app1" />
           <div class="caption">
             <h3 className="filler">Filler Hub</h3>
             <p>
@@ -216,15 +216,11 @@ const Project = () => {
               the world being it politices,sport,business,science and magazine
             </p>
             <p>
-              <a
-                href="https://articles-git-master-princeantwi2k.vercel.app/"
-                class="btn btn-success buttons"
-                role="button"
-              >
+              <a href="#" class="btn btn-success buttons" role="button">
                 Demo
               </a>{" "}
               <a
-                href="https://github.com/Princeantwi2k/articles"
+                href="https://github.com/Princeantwi2k/react-kawolegal"
                 class="btn btn-primary"
                 role="button"
               >

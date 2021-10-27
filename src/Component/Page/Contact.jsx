@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-
+import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div>
@@ -8,71 +8,53 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <p className="para">let's get in touch!</p>
       </div>
+      <div className="connect">
+        <h2 class="head">
+          Contact
+          <br />
+          Call,Whatsapp or send us an E-mail
+        </h2>
+        <h2 class=" icons">
+          <i class="bx bx-phone "> (+233)5503001103 </i>
+          <br />
 
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-12">
-            <div className="col-xs-6 col-sm-6 col-md-6">
-              <h1 className="mind">Contact</h1>
-              <h5 className="dede">Call, Whats'app or send us an E-mail</h5>
-            </div>
-            <div className="col-xs-6 col-sm-6 col-md-6 blade">
-              <h4>
-                <i className="fa fa-phone" aria-hidden="true">
-                  {" "}
-                  (+233)5503001103{" "}
-                </i>
-              </h4>
-              <h2>
-                <i className="fa fa-whatsapp" aria-hidden="true">
-                  {" "}
-                  0572211378
-                </i>
-              </h2>
-              <h4>
-                <i className="fa fa-envelope-o" aria-hidden="true">
-                  {" "}
-                  antwi2k@gmail.com
-                </i>
-              </h4>
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-12 col-md-12">
-            <div className="col-xs-6 col-sm-6 col-md-6">
-              <h1 className="mind">Social</h1>
-              <h5 className="dede">
-                Follow us and stay updated with all our work and coming offers !
-              </h5>
-            </div>
-            <div className="col-xs-6 col-sm-6 col-md-6 blade">
-              <h2>
-                <i className="fa fa-instagram " aria-hidden="true">
-                  <a href="" className="contact-email">
-                    {" "}
-                    Qwajo monies{" "}
-                  </a>
-                </i>
-              </h2>
-              <h2>
-                <i className="fa fa-twitter " aria-hidden="true">
-                  <a href="" className="contact-email">
-                    {" "}
-                    Prince2k{" "}
-                  </a>{" "}
-                </i>
-              </h2>
-              <h2>
-                <i className="fa fa-facebook " aria-hidden="true">
-                  <a href="" className="contact-email">
-                    {" "}
-                    Qwajo monies{" "}
-                  </a>
-                </i>
-              </h2>
-            </div>
-          </div>
-        </div>
+          <i class="bx bxl-whatsapp"> (+233)0572211378</i>
+          <br />
+
+          <i class="bx bx-mail-send"> antwi2k@gmail.com</i>
+        </h2>
       </div>
+      <div className="connect">
+        <h2 class="head">
+          Social
+          <br />
+          Follow me and stay updated with all my work and coming offers !
+        </h2>
+        <h2 class="icons">
+          {" "}
+          <i class="bx bxl-instagram phone">
+            <Link to="https://www.instagram.com/" className="contact-email">
+              {" "}
+              Qwajo monies{" "}
+            </Link>
+          </i>
+          <br />
+          <i class="bx bxl-twitter phone">
+            <Link to="https://twitter.com/home" className="contact-email">
+              {" "}
+              Prince2k{" "}
+            </Link>{" "}
+          </i>
+          <br />
+          <i class="bx bxl-facebook-circle phone">
+            <Link to="https://web.facebook.com/" className="contact-email">
+              {" "}
+              Qwajo monies{" "}
+            </Link>
+          </i>
+        </h2>
+      </div>
+
       <div className="footer">
         <h1>Portfolio Made By Prince Antwi</h1>
         <p>Phone:+233 572 211 378</p>
