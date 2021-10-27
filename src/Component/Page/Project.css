@@ -1,0 +1,70 @@
+.project {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: start;
+}
+.app1 {
+  width: 300px;
+  height: 400px;
+}
+.p {
+  font-size: 16px;
+}
+.projects {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: start;
+}
+.filler {
+  text-align: center;
+  font-weight: bolder;
+  color: teal;
+}
+.footer {
+  text-align: center;
+}
+.button {
+  margin-left: 80px;
+}
+.buttons {
+  margin-left: 180px;
+}
+.buttonss {
+  margin-left: 130px;
+}
+.buttonsss {
+  margin-left: 300px;
+}
+@media screen and (max-width: 480px) {
+  .project {
+    display: block;
+    box-sizing: border-box;
+    justify-content: start;
+  }
+  .projects {
+    display: block;
+    box-sizing: border-box;
+    justify-content: start;
+  }
+  .filler {
+    text-align: center;
+    font-weight: bolder;
+    color: teal;
+  }
+  .footer {
+    text-align: center;
+  }
+  .app1 {
+    width: 300px;
+    height: 400px;
+  }
+  .buttonsss {
+    margin-left: 80px;
+  }
+  .buttons {
+    margin-left: 80px;
+  }
+  .buttonss {
+    margin-left: 80px;
+  }
+}
