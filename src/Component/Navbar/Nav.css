@@ -67,14 +67,19 @@ span {
 }
 
 .navbar > .profile {
-  width: 100px;
-  height: 80px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
 }
 @media screen and (max-width: 480px) {
   .menu-bar {
     margin-right: 30rem;
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: none;
+  }
+  .navbar > .profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
   }
 }
