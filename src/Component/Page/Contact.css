@@ -1,0 +1,44 @@
+.contact {
+  width: 100%;
+  text-align: center;
+
+  font-weight: bolder;
+  font-size: 40px;
+  color: rgb(7, 5, 5);
+  height: 100px;
+
+  margin: 0%;
+}
+
+.mind {
+  margin-top: 20px;
+  padding: 20px;
+  font-family: "Goblin One", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.dede {
+  text-align: center;
+  font-weight: bold;
+}
+.blade {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: aqua;
+
+  color: black;
+}
+.contact-email {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.blad {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.footer {
+  text-align: center;
+}
