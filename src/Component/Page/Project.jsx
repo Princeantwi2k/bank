@@ -8,6 +8,7 @@ import app5 from "../../Image/app5.png";
 import app6 from "../../Image/app6.png";
 import app7 from "../../Image/app7.png";
 import app8 from "../../Image/app8.png";
+import app9 from "../../Image/app9.png";
 const Project = () => {
   return (
     <>
@@ -192,7 +193,7 @@ const Project = () => {
             <p>
               <a
                 href="https://articles-git-master-princeantwi2k.vercel.app/"
-                class="btn btn-success buttonsss"
+                class="btn btn-success buttonss"
                 role="button"
               >
                 Demo
@@ -217,11 +218,39 @@ const Project = () => {
               companies
             </p>
             <p>
-              <a href="#" class="btn btn-success buttons" role="button">
+              <a href="#" class="btn btn-success buttonss" role="button">
                 Demo
               </a>{" "}
               <a
                 href="https://github.com/Princeantwi2k/react-kawolegal"
+                class="btn btn-primary"
+                role="button"
+              >
+                View code
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src={app9} alt="app" className="app1" />
+          <div class="caption">
+            <h3 className="filler">Coca Cola</h3>
+            <p>
+              this is a website that best allow you to know all the varsities of
+              coca-cola that we have in the world look no where else that to
+              visit this page if you want to kown any new thing about our
+              product.
+            </p>
+            <p>
+              <a
+                href="https://cocacla-princeantwi2k.vercel.app/"
+                class="btn btn-success buttons"
+                role="button"
+              >
+                Demo
+              </a>{" "}
+              <a
+                href="https://github.com/Princeantwi2k/Cocacla"
                 class="btn btn-primary"
                 role="button"
               >
