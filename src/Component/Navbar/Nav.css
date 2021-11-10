@@ -16,8 +16,8 @@
 }
 .nav-menu {
   background-color: #060606;
-  width: 250px;
-  height: 60vh;
+  width: 300px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -71,6 +71,7 @@ span {
   height: 50px;
   border-radius: 50px;
 }
+
 @media screen and (max-width: 480px) {
   .menu-bar {
     margin-right: 30rem;
