@@ -1,10 +1,29 @@
 .gif {
   width: 50%;
-  height: 400px;
+  height: 500px;
 }
 .home-page {
   display: flex;
   align-items: center;
+}
+.up {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+.ups {
+  height: 40px;
+  font-size: 40px;
+  position: fixed;
+  background-color: tomato;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+.ups:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  transform: scale(1);
 }
 .home-button {
   padding: 20px;
@@ -14,8 +33,43 @@
   padding: 30px;
 }
 .home-text {
-  padding: 50px;
+  padding: 60px;
   font-weight: bolder;
+}
+.about {
+  display: flex;
+}
+.about-img {
+  width: 500px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.about-me {
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+}
+.about-head {
+  box-sizing: border-box;
+  box-shadow: 2px 3px 4px gray;
+  border-radius: 30px;
+  text-align: center;
+  background-color: white;
+  color: blue;
+}
+.about-text {
+  margin-top: 20px;
+  text-align: center;
+  padding: 40px;
+  font-size: 22px;
+  margin-right: 20px;
+  color: black;
+}
+
+.footer {
+  margin-top: 100px;
 }
 
 .font {
@@ -72,11 +126,69 @@
 .footer {
   text-align: center;
 }
-
+.project {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: start;
+}
+.app1 {
+  width: 300px;
+  height: 400px;
+}
+.p {
+  font-size: 16px;
+}
+.projects {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: start;
+}
+.filler {
+  text-align: center;
+  font-weight: bolder;
+  color: teal;
+}
+.footer {
+  text-align: center;
+}
+.button {
+  margin-left: 80px;
+}
+.buttons {
+  margin-left: 180px;
+}
+.buttonss {
+  margin-left: 130px;
+}
+.buttonsss {
+  margin-left: 300px;
+}
+.connect {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  margin-left: 100px;
+}
+.contact {
+  text-align: center;
+}
+.phone {
+  margin-left: 90px;
+}
+.icons {
+  background-color: grey;
+  padding: 60px;
+  color: white;
+}
+.contact-email {
+  color: white;
+  text-decoration: none !important;
+}
+.head {
+  margin-top: 100px;
+  text-align: center;
+}
 @media screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
   .provider {
     padding: 30px;
     display: flex;
@@ -98,6 +210,7 @@
   .thumbnail {
     margin: 0px 40px 20px 40px;
   }
+
   .home-text {
     padding: 20px;
     font-weight: bolder;
@@ -114,6 +227,30 @@
   .service-gifs {
     width: 150px;
     height: 200px;
+  }
+  .about {
+    display: inline-block;
+  }
+  .about-img {
+    width: 370px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+  }
+  .about-head {
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    color: blue;
+  }
+  .about-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 19px;
+    color: blue;
+    margin-right: 1px;
+    padding: 1px;
   }
   .skill {
     display: grid;
@@ -136,5 +273,56 @@
   .app-texts {
     font-weight: 300;
     color: teal;
+  }
+  .project {
+    display: block;
+    box-sizing: border-box;
+    justify-content: start;
+  }
+  .projects {
+    display: block;
+    box-sizing: border-box;
+    justify-content: start;
+  }
+  .filler {
+    text-align: center;
+    font-weight: bolder;
+    color: teal;
+  }
+  .footer {
+    text-align: center;
+  }
+  .app1 {
+    width: 300px;
+    height: 400px;
+  }
+  .buttonsss {
+    margin-left: 80px;
+  }
+  .buttons {
+    margin-left: 80px;
+  }
+  .buttonss {
+    margin-left: 80px;
+  }
+  .icons {
+    background-color: rgb(211, 62, 62);
+    padding: 20px;
+    color: white;
+  }
+  .head {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .connect {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .phone {
+    margin-left: 50px;
   }
 }
