@@ -9,19 +9,25 @@ export const Sidebar = [
   },
   {
     title: "About Me",
-    path: "/about",
+    path: "#about",
     icon: <i class="bx bx-user"></i>,
     cName: "nav-text",
   },
   {
     title: "Project",
-    path: "/project",
+    path: "#project",
     icon: <i class="bx bxl-product-hunt"></i>,
     cName: "nav-text",
   },
   {
+    title: "My Skills",
+    path: "#skills",
+    icon: <i class="bx bx-heart-square"></i>,
+    cName: "nav-text",
+  },
+  {
     title: "Contact",
-    path: "/contact",
+    path: "#contact",
     icon: <i class="bx bx-support"></i>,
     cName: "nav-text",
   },
