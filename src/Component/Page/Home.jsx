@@ -222,12 +222,12 @@ const Home = () => {
         <p className="para">let's get in touch!</p>
       </div>
       <div className="connect">
-        <h2 class="head" data-aos="fade-right">
+        <h2 class="head" data-aos="fade-up">
           Contact
           <br />
           Call,Whatsapp or send us an E-mail
         </h2>
-        <h2 class=" icons" data-aos="fade-left">
+        <h2 class=" icons" data-aos="fade-up">
           <i class="bx bx-phone "> (+233)5503001103 </i>
           <br />
 
@@ -238,12 +238,12 @@ const Home = () => {
         </h2>
       </div>
       <div className="connect">
-        <h2 class="head" data-aos="fade-right">
+        <h2 class="head" data-aos="fade-up">
           Social
           <br />
           Follow me and stay updated with all my work and coming offers !
         </h2>
-        <h2 class="icons" data-aos="fade-left">
+        <h2 class="icons" data-aos="fade-up">
           {" "}
           <i class="bx bxl-instagram phone">Qwajo monies </i>
           <br />
