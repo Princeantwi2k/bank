@@ -60,7 +60,7 @@ const Home = () => {
         <h1 className="about-head" data-aos="fade-up">
           <span className="about-text">
             {" "}
-            AM Prince Kojo Antwi. I'm a FrontEnd web developer currently
+            I'm Prince Kojo Antwi. I'm a FrontEnd web developer currently
             studying at in Codetrain in Ghana. I am 23 years old. I dont have
             any professional experience at the moment,but i have built some nice
             website as my personal project you can check them out in my project
