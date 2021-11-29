@@ -1,5 +1,5 @@
 .gif {
-  width: 50%;
+  width: 200px;
   height: 500px;
 }
 .home-page {
@@ -191,17 +191,15 @@
 }
 @media screen and (max-width: 480px) {
   .provider {
-    padding: 30px;
+    padding: 10px;
     display: flex;
-    scroll-snap-type: x mandatory;
-    overflow-x: scroll;
   }
   .thum {
     display: block;
     scroll-snap-align: end;
   }
   .gif {
-    width: 100%;
+    width: 400px;
     height: 400px;
   }
 
@@ -237,7 +235,7 @@
   .about-img {
     width: 370px;
     height: 300px;
-    margin: 20px;
+    justify-items: center;
     border-radius: 30px;
   }
   .about-head {
