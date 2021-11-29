@@ -57,7 +57,7 @@ const Home = () => {
       <div className="about">
         <img src={img1} alt="pic" className="about-img" data-aos="flip-left" />
 
-        <h1 className="about-head" data-aos="zoom-out-left">
+        <h1 className="about-head" data-aos="fade-up">
           <span className="about-text">
             {" "}
             AM Prince Kojo Antwi. I'm a FrontEnd web developer currently
