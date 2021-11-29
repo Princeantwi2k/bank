@@ -81,7 +81,7 @@ const Home = () => {
           style={{ textAlign: "center", fontWeight: "bolder" }}
           data-aos="fade-up"
         >
-          My Service Proviver
+          My Service Provider
         </h1>
       </div>
       <div>
