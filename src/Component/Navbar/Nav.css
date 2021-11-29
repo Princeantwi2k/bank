@@ -5,6 +5,7 @@
   flex-direction: row-reverse;
   align-items: center;
   margin: 0;
+  overflow-x: hidden;
 }
 .bx-menu {
   color: white;
