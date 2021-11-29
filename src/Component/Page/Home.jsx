@@ -48,7 +48,6 @@ const Home = () => {
           <i className="bx bx-up-arrow-alt ups"></i>
         </Link>
       </div>
-
       <div id="about">
         {" "}
         <h2 className="about-me" data-aos="fade-up">
@@ -58,7 +57,7 @@ const Home = () => {
       <div className="about">
         <img src={img1} alt="pic" className="about-img" data-aos="flip-left" />
 
-        <h1 className="about-head" data-aos="">
+        <h1 className="about-head" data-aos="zoom-out-left">
           <span className="about-text">
             {" "}
             AM Prince Kojo Antwi. I'm a FrontEnd web developer currently
@@ -157,6 +156,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div id="skills">
         <h1
           style={{ textAlign: "center", fontWeight: "bolder", padding: "30px" }}

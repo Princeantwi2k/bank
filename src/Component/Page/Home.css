@@ -1,5 +1,5 @@
 .gif {
-  width: 200px;
+  width: 50%;
   height: 500px;
 }
 .home-page {
@@ -329,5 +329,24 @@
   }
   .phone {
     margin-left: 50px;
+  }
+  .up {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+  }
+  .ups {
+    height: 40px;
+    font-size: 40px;
+    position: fixed;
+    background-color: tomato;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+  }
+  .ups:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    transform: scale(1);
   }
 }
